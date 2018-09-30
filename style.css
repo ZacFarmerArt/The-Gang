@@ -9,6 +9,10 @@ h1{
 	font-weight: 800;
 	font-size: 50px;
 }
+h2{
+	font-weight: 800;
+	font-size: 50px;
+}
 
 h3{
 	font-weight: bold;
@@ -96,20 +100,80 @@ button.cta.alt{
 	box-shadow:0 0 0 10px rgba(0,0,0,.15);
 }
 
+nav{
+	height: 90px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0,0,0,.2);
+	position: sticky;
+	top: 0;
+}
 
-/*<div class="hero-banner">
-	<div class="wrapper">
-		<h4>Zac from <a href="https://www.skillshare.com/profile/Zac-Farmer/7505651">Skillshare</a> Presents
-		</h4>
-		<h1>The Silliest &amp;<br/>
-		Most Awesome Gang<br/>
-		In the World!</h1>
-		<h3>It's Circle Dude, Triangle Person, &amp; Square Lady<br/>
-		They're the best of friends.</h3>
-		<a class="cta alt" href="#more-info">Read More</a>
-	</div>
-	<div class="Char 1"></div>
-	<div class="Char 2"></div>
-	<div class="Char 3"></div>
-</div>
+nav .logo{
+	display: block;
+	width: 375px;
+	height: 375px;
+	position: absolute;
+	margin-top: -140px;
+	margin-left: -60px;
+	background: url(img/logo.png) no-repeat 0 0;
+	background-size: 100%;
+	overflow: hidden;
+	text-indent: -999px;
+	text-decoration: none;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #111111;
+	text-decoration: none;
+	padding: 30px 10px;
+	line-height: 30px;
+}
+.more-info{
+	text-align: center;
+
+}
+
+.more-info h2{
+	margin: 50px 0 35px;
+}
+.highlight{
+	background-color: #DA4167;
+	color: #083D77;
+	padding: 5px 10px;
+	line-height: 50px;
+	display: inline;
+}
+
+p{
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 18px 30px
+
+}
+
+/*<nav>
+	<a href="#" class="logo">The Gang</a>
+	<ul>
+		<li><a href="#">Sign Up</a></li>
+		<li><a href="#story">The Story</a></li>
+		<li><a href="#more-info">More Info</a></li>
+	</ul>
+</nav>
 */
